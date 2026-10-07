@@ -22,6 +22,10 @@
 	pointer-events: none;
 }
 
+header {
+	user-select: none;
+}
+
 @keyframes ripple-animation {
 	to {
 		transform: scale(4);
