@@ -22,8 +22,12 @@
 	pointer-events: none;
 }
 
-header {
+* {
 	user-select: none;
+}
+
+.site-description * {
+	user-select: text !important;
 }
 
 @keyframes ripple-animation {
